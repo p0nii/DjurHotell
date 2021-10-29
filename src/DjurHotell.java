@@ -2,14 +2,29 @@ import java.util.ArrayList;
 import java.util.Scanner;
 public class DjurHotell {
 
-    static ArrayList<String> dittDjur = new ArrayList<String>();
+    static ArrayList<Animal> dittDjur = new ArrayList<Animal>();
+    static ArrayList<Room> room = new ArrayList<Room>();
+
+
+
 
 
 
     public static void start() {
+        Skog rum1 = new Skog(101, "Skog", "40 m^2" );
+        room.add(rum1);
 
-    boolean runProgram = true;
-    while (runProgram) {
+        Hav rum2 = new Hav(102,"Hav","3000 m^3");
+        room.add(rum2);
+
+        Arktis rum3 = new Arktis(103, "Arktis", "75 m^2");
+        room.add(rum3);
+
+
+
+
+        boolean runProgram = true;
+        while (runProgram) {
 
 
         printMenu();

@@ -17,11 +17,27 @@ public class Animal {
    }
 
 
+   public String getNamn() {
+      return namn;
+   }
 
+   public void setNamn(String namn) {
+      this.namn = namn;
+   }
 
+   public String getFavoritmat() {
+      return favoritmat;
+   }
 
+   public void setFavoritmat(String favoritmat) {
+      this.favoritmat = favoritmat;
+   }
 
+   public String getFavoritaktivitet() {
+      return favoritaktivitet;
+   }
 
-
-
+   public void setFavoritaktivitet(String favoritaktivitet) {
+      this.favoritaktivitet = favoritaktivitet;
+   }
 }

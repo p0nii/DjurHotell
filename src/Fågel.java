@@ -1,5 +1,8 @@
+public class Fågel extends Animal {
 
-        public class Fågel {
+    public Fågel (String namn, String favoritmat, String favoritaktivitet) {
+        super(namn, favoritmat, favoritaktivitet);
+    }
 
 
     }
